@@ -1,0 +1,82 @@
+/* Background and layout */
+body {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+.todo-list-mainDiv {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 900px;
+}
+
+/* Page Title */
+.todo-list-mainDiv h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Task input section */
+.todo-task-input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Input box */
+.todo-task-input-div input {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Buttons */
+button {
+  border-radius: 8px !important;
+  font-weight: 500;
+  padding: 0.4rem 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Table styling */
+table {
+  margin-top: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead tr th {
+  text-align: center;
+}
+
+tbody tr td {
+  vertical-align: middle;
+}
+
+tbody tr td button {
+  margin-right: 0.3rem;
+}
+.task-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.task-buttons button {
+  flex: 1;
+  min-width: 80px;
+}
